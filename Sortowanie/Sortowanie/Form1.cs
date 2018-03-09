@@ -252,8 +252,8 @@ namespace Sortowanie
         private int nowaFunkcja()
         {
             int x = 42;
-            int y = 69;
-            return x+y;
+            int y = 369;
+            return x+x*y;
         }
     }
 }
