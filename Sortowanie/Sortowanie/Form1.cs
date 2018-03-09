@@ -249,9 +249,10 @@ namespace Sortowanie
             sortWybRown();
         }
 
-        private void mnoz(int x, int y)
+        private int mnoz(int x, int y)
         {
             int z=x*y;
+            return z;
         }
 
     }
