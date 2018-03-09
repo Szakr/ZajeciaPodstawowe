@@ -248,12 +248,27 @@ namespace Sortowanie
             czasSZPR.Text = string.Empty;
             sortWybRown();
         }
+
+
+        private int mnoz(int x, int y)
+        {
+            int z=x*y;
+            return z;
+        }
+
+
+        private int dodaj(int x,int y)
+        {
+            int z = x + y;
+            return z;
+
         
         private int nowaFunkcja()
         {
             int x = 42;
             int y = 369;
             return x+x*y;
+
         }
     }
 }
