@@ -248,5 +248,11 @@ namespace Sortowanie
             czasSZPR.Text = string.Empty;
             sortWybRown();
         }
+
+        private void mnoz(int x, int y)
+        {
+            int z=x*y;
+        }
+
     }
 }
